@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background: url("images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 30px;
+}
+
+h1 {
+text-align: center;
+text-decoration: underline;
+}
+
+/* Adds the 2nd background overlay for the text in the main */
+main {
+    background-color: lightgrey
+}
+
+
+/* This centers all of the example images and ensures the aspect ratio
+is kept when changing screen sizes. */
+img {
+display: block;
+margin: 20px auto;
+height: auto;
+}
