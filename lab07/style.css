@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+    color: black;
+}
+
+footer {
+    background-color: darkgrey;
+}
+
+@media (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px
+    }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin:10px
+}
+
+h1 {
+                
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+                
+}
+
+h2 {
+                
+    color: purple;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+h3 {
+                
+    color: purple;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+p {
+                
+    color: black;
+    font-size: 16px;
+                
+}
+
+a {
+                
+    color: rgb(48, 127, 153);
+                
+}
+
+#main-title {
+
+    text-decoration: underline;
+
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    min-width: 400px;
+
+}
+
+.content-table thead tr {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid black;
+
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: lightblue;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid blue
+}
