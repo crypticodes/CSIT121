@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset = "UTF-8">
+
+        <title>Lab 04: PNG Page</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+
+    </head>
+
+    <body>
+        
+        <main>
+
+            <header>
+
+                <h1>PNG Example</h1>
+
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#jpg">JPG Example Page</a>
+                    <a href="#png">PNG Example Page</a>
+                    <a href="#gif">GIF Example Page</a>
+                    <a href="javascript:void(0);" class="icon" onclick = "myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                </script>
+
+            </header>
+
+            <section>
+
+                <h2>Behold the PNG!!!</h2>
+
+                <img src="images/itbrain.png" alt="Creative Brain Representing Intelligence" height="200" width="300">
+
+                <p>
+
+                    <u>Portable Network Graphic (PNG):</u> This file type supports multiple levels of transparency and millions of colors. This format uses lossless compression, 
+                    supports interlacing (low-res while the file downloads), and overall combines the best properties of both GIF & JPEG. I chose the image because
+                    of my interest in IT and it reminds me of artificial intelligence because of the tech intertwined with the image of a brain.
+
+                </p>
+
+            </section>
+
+            <footer>
+
+            <p>Author: Jordon Jeannetta</p>
+
+            </footer>
+
+        </main>
+        
+    </body>
+
+</html>

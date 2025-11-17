@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset = "UTF-8">
+
+        <title>Lab 04: Visual Media Lab</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        
+        <main>
+
+            <header>
+
+                <h1>Lab 8: Interactive Menu</h1>
+
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#jpg">JPG Example Page</a>
+                    <a href="#png">PNG Example Page</a>
+                    <a href="#gif">GIF Example Page</a>
+                    <a href="javascript:void(0);" class="icon" onclick = "myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                </script>
+
+            </header>
+
+            <section>
+
+                <h2>My First Multipage</h2>
+
+                <p>
+
+                    This assignment was the most challenging by far. I watched the video you put out and used the example to check against
+                    the code I already had. I've primarily been using my previous labs as reference when I need to remember the format of specific
+                    pieces of code. I did use ChatGPT to find/explain ways to format images on the pages (such as aligning them to the center). I also
+                    experimented with some of the CSS options by typing the beginning of the selector (font- or text-) and then seeing what it affected.
+
+                </p>
+
+            </section>
+
+            <footer>
+
+            <p>Author: Jordon Jeannetta</p>
+
+            </footer>
+
+        </main>
+        
+    </body>
+
+</html>

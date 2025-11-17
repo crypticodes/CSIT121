@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset = "UTF-8">
+
+        <title>Lab 04: GIF Page</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+
+    </head>
+
+    <body>
+        
+        <main>
+
+            <header>
+
+                <h1>GIF Example</h1>
+
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#jpg">JPG Example Page</a>
+                    <a href="#png">PNG Example Page</a>
+                    <a href="#gif">GIF Example Page</a>
+                    <a href="javascript:void(0);" class="icon" onclick = "myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                </script>
+
+            </header>
+
+            <section>
+
+                <h2>Behold the GIF!!!</h2>
+                
+                <img src="images/lemonman.gif" alt="Lemon Man Being Poked" height="200" width="300">
+
+                <p>
+
+                    <u>Graphics Interchange Format (GIF):</u> This is primarily used for animated images, but can also be used for still images. There's a maximum
+                    of 256 colors, the format uses lossless compression, and it can be interlaced which shows low-res versions until the file fully downloads.
+                    I chose this image because it's a fun example of the file type, and reminds me of the Earl of Lemongrab from Adventure Time.
+
+                </p>
+
+            </section>
+
+            <footer>
+
+            <p>Author: Jordon Jeannetta</p>
+
+            </footer>
+
+        </main>
+        
+    </body>
+
+</html>
